@@ -2,6 +2,8 @@
 
 Jsonlinter  is a JSON Linter that uses jsonlint program to Validate Multiple  JSON Files.
 
+Note: These scripts work only on centos.
+
 Installation
 ------------
 
