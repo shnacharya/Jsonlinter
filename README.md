@@ -7,7 +7,7 @@ Installation
 FOr installation, Please Navigate to linyer Folder and run installer.sh. This will install jsonlint along with the dependencies
 
 ```bash
-$ sh linter/installer.sh
+$ cd linter && sh linter/installer.sh
 ```
 
 
