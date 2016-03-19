@@ -53,7 +53,8 @@ else
 echo -e " \n ${green}INstallation Completed  this system ${reset}"
 
 sudo cp -rp jsonlinter.sh /usr/bin/jsonlinter 
- exit 0
+
+ chmod +x /usr/bin/jsonlinter
 
 fi
 
