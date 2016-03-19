@@ -1,10 +1,11 @@
 #Jsonlinter
 
 Jsonlinter  is a JSON Linter that uses jsonlint program to Validate Multiple  JSON Files.
+
 Installation
 ------------
 
-FOr installation, Please Navigate to linyer Folder and run installer.sh. This will install jsonlint along with the dependencies
+For installation, Please Navigate to linter Folder and run installer.sh. This will install jsonlint along with the dependencies
 
 ```bash
 $ cd linter && sh linter/installer.sh
