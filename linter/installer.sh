@@ -23,7 +23,7 @@ if [ $? -ne 0 ]
 
 then
 
-echo -e "${red} Npm not found  I am going to Install it for you"
+echo -e "${red} Npm not found. I am going to Install it for you"
 
 sudo yum install epel-release
 
@@ -35,7 +35,7 @@ if [ $? -ne 0 ]
 
 then
 
-echo -e "\n ${red} Installation Failed, PLease check logs"
+echo -e "\n ${red} Installation Failed, Please check logs"
 
 
 fi
@@ -50,7 +50,7 @@ echo -e "\n \n ${green}Installing Jsonlint" ;npm install jsonlint -g 2>&1
 
 else 
 
-echo -e " \n ${green}INstallation Completed  this system ${reset}"
+echo -e " \n ${green}Installation Completed  this system ${reset}"
 
 sudo cp -rp jsonlinter.sh /usr/bin/jsonlinter 
 
